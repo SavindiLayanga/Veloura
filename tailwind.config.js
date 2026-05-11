@@ -12,12 +12,12 @@ export default {
           ivory: '#F5F1EB',
           gold: '#C9A227',
           gray: '#D9D9D9',
-        }
+        },
       },
       fontFamily: {
         serif: ['Playfair Display', 'serif'],
         sans: ['Inter', 'sans-serif'],
-      }
+      },
     },
   },
   plugins: [],

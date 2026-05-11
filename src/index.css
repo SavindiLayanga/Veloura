@@ -1,19 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
 
-@layer base {
-  html, body {
-    @apply bg-brand-ivory text-brand-black font-sans antialiased;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
-  }
+:root {
+  font-family: 'Inter', sans-serif;
+  color: #0F0F0F;
+  background-color: #F5F1EB;
 }
 
-.glass-nav {
-  @apply bg-brand-ivory/80 backdrop-blur-md border-b border-brand-gray/20;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #F5F1EB;
+  color: #0F0F0F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
 }
